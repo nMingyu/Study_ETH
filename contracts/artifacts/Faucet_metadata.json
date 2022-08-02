@@ -1,0 +1,56 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "withdraw_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Faucet.sol": "Faucet"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Faucet.sol": {
+			"keccak256": "0x44220459849c244036eba700064c4eb47ed5e200d3db6fa76ed61538788fcc85",
+			"urls": [
+				"bzzr://530a04eb6f1801f8c1592e08e3166aa55e4ad5151261b1f65f3334cb2bc7f06f"
+			]
+		}
+	},
+	"version": 1
+}
